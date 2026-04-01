@@ -29,6 +29,14 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/weallnoob/Video_Downloader">
+    <img src="assets/github_star.png" width="400" alt="Please Star the Repository">
+  </a>
+</p>
+
+<h3 align="center">⭐ If you find this project useful, please consider giving it a star! ⭐</h3>
+
 ---
 
 ## ✨ Features

@@ -29,6 +29,14 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/weallnoob/Video_Downloader">
+    <img src="assets/github_star.png" width="400" alt="Please Star the Repository">
+  </a>
+</p>
+
+<h3 align="center">⭐ 프로젝트가 유용하다면 별점(Star)을 눌러주세요! 부탁드립니다. ⭐</h3>
+
 ---
 
 ## ✨ 주요 특징
