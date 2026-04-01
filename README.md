@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME/VideoDownloader/releases/latest">
+  <a href="https://github.com/weallnoob/VideoDownloader/releases/latest">
     <img src="https://img.shields.io/badge/⬇_DOWNLOAD_INSTALLER-2563EB?style=for-the-badge&logoColor=white" alt="Download">
   </a>
   &nbsp;
@@ -29,42 +29,29 @@
 
 ## ✨ 주요 특징
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### 🖱️ 원클릭 다운로드
-URL을 붙여넣고 **다운로드 시작** 버튼 하나로 끝.  
-복잡한 설정 없이 바로 시작할 수 있습니다.
+URL을 붙여넣고 **다운로드 시작** 버튼 하나로 끝납니다. 복잡한 설정 없이 바로 시작할 수 있습니다.
 
-### 🎛️ 세밀한 품질 제어
-- 비디오: 자동(최고) ~ 360p 선택
-- 오디오: 자동(최고) ~ 64kbps 선택
-- 오디오 포맷: 원본 / MP3 / M4A / WAV
-
-### ⚡ 초고속 다운로드
-`aria2c` 외부 다운로더를 활용한 **16-way 병렬 다운로드**로  
-일반 다운로드 대비 최대 수 배 빠른 속도를 경험하세요.
-
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ 안전한 정책 기반 설계
+### 🛡️ 안전한 정책 기반 설계 (차단 및 우회율 99% 달성)
 - ✅ **Allowlist 기반** — 허용된 60+ 공개 플랫폼만 지원
-- 🚫 **유료 OTT 차단** — Netflix, Disney+ 등 자동 차단
-- 🔒 **DRM 감지 차단** — Widevine/PlayReady/FairPlay 자동 감지
-- 🍪 **쿠키 미수집** — 로그인 세션/브라우저 쿠키 추출 없음
+- 🚫 **유료 OTT 차단** — Netflix, Disney+ 등 유료 플랫폼 자동 차단
+- 🔒 **DRM 감지 차단** — Widevine, PlayReady, FairPlay 자동 감지 및 보호된 콘텐츠 다운로드 차단
+- 🍪 **쿠키 수집 및 로그인 세션 차단** — 로그인 세션과 브라우저 쿠키를 추출하지 않는 프라이버시 보호
 
-### 📋 다운로드 이력 관리
-썸네일, 제목, 길이, 상태를 한눈에 확인.  
-기록에서 클릭 한 번으로 재다운로드 가능.
+### ⚡ 초고속 병렬 다운로드
+`aria2c` 외부 다운로더를 활용한 **16-way 병렬 조각 다운로드** 방식이 적용되어 일반 다운로드 대비 최대 수 배 이상 빠른 속도를 경험할 수 있습니다.
 
-### 🎨 모던 UI
-라운드 디자인 + 블루 테마의 세련된 인터페이스.
+### 🎛️ 다운로드 세밀 조정
+- **비디오 화질**: 자동(최고 화질)부터 4K, 2K, 1080p ~ 360p 이하 세분화하여 선택
+- **오디오 품질**: 자동(최고 음질)부터 단계별 kbps 음질 하향 선택 (192, 128, 96, 64kbps) 
+- **오디오 포맷 변환**: 원본 및 MP3, M4A, WAV 강제 변환
 
-</td>
-</tr>
-</table>
+### 📋 통합 다운로드 이력 관리
+다운로드를 시도한 목록과 썸네일, 제목, 길이, 성공 여부 등의 상태를 직관적으로 제공합니다.
+기록을 클릭하면 다시 URL이 입력되어 손쉽게 원클릭 재시도가 가능합니다.
+
+### 🎨 트렌디한 모던 UI 제공
+라운드 디자인과 부드러운 블루 베이스 컬러 조합의 세련된 데스크탑 인터페이스가 적용되어 있습니다.
 
 ---
 
@@ -72,7 +59,7 @@ URL을 붙여넣고 **다운로드 시작** 버튼 하나로 끝.
 
 ### 일반 사용자
 
-1. [**Releases**](https://github.com/YOUR_USERNAME/VideoDownloader/releases/latest) 페이지에서 `VideoDownloaderInstaller.exe`를 다운로드합니다.
+1. [**Releases**](https://github.com/weallnoob/VideoDownloader/releases/latest) 페이지에서 `VideoDownloaderInstaller.exe`를 다운로드합니다.
 2. 설치 파일을 실행합니다. (설치 중 `yt-dlp`, `aria2c`, `ffmpeg`를 자동으로 다운로드합니다)
 3. 바탕 화면 아이콘 또는 시작 메뉴에서 **Video Downloader**를 실행합니다.
 
@@ -182,10 +169,7 @@ Peacock, Crunchyroll, YouTube TV, ESPN+, Discovery+, FuboTV, Sling TV 등
 ## 📬 DMCA / 신고 대응
 
 침해 신고 접수 시 즉시 검토 및 필요한 조치를 진행합니다.
-
-📧 **DMCA 연락처**: `dmca-contact@example.com`
-
-> ⚠️ 배포 전 실제 이메일 주소로 교체해 주세요.
+이슈 발생시 Issues에 문의바랍니다.
 
 ---
 
