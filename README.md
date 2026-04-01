@@ -41,6 +41,8 @@
 
 ## 🚀 설치하기
 
+![심플한 UI](image.png)
+
 ### 일반 사용자
 
 1. [**Releases**](https://github.com/weallnoob/VideoDownloader/releases/latest) 페이지에서 `VideoDownloaderInstaller.exe`를 다운로드합니다.
