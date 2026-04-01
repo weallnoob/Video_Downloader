@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/weallnoob/VideoDownloader/releases/latest">
+  <a href="https://github.com/weallnoob/Video_Downloader/releases/tag/Installer">
     <img src="https://img.shields.io/badge/⬇_DOWNLOAD_INSTALLER-2563EB?style=for-the-badge&logoColor=white" alt="Download">
   </a>
   &nbsp;
@@ -45,7 +45,7 @@
 
 ### 일반 사용자
 
-1. [**Releases**](https://github.com/weallnoob/VideoDownloader/releases/latest) 페이지에서 `VideoDownloaderInstaller.exe`를 다운로드합니다.
+1. [**Releases**](https://github.com/weallnoob/Video_Downloader/releases/tag/Installer) 페이지에서 `VideoDownloaderInstaller.exe`를 다운로드합니다.
 2. 설치 파일을 실행합니다. (설치 중 `yt-dlp`, `aria2c`, `ffmpeg`를 자동으로 다운로드합니다)
 3. 바탕 화면 아이콘 또는 시작 메뉴에서 **Video Downloader**를 실행합니다.
 
