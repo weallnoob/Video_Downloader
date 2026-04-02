@@ -17,7 +17,7 @@ WizardStyle=modern
 PrivilegesRequired=admin
 CloseApplications=yes
 RestartApplications=no
-CloseApplicationsFilter=VideoDownloader.exe
+CloseApplicationsFilter=VideoDownloader.exe,QtWebEngineProcess.exe
 
 [Languages]
 Name: "korean"; MessagesFile: "compiler:Languages\Korean.isl"
@@ -399,6 +399,7 @@ begin
   if CurStep = ssInstall then
   begin
     TerminateProcessIfRunning('VideoDownloader.exe');
+    TerminateProcessIfRunning('QtWebEngineProcess.exe');
     TerminateProcessIfRunning('yt-dlp.exe');
     TerminateProcessIfRunning('aria2c.exe');
     TerminateProcessIfRunning('ffmpeg.exe');

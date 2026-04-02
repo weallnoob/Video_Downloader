@@ -198,6 +198,7 @@ if (-not $SkipBuild -and $OfflineMode) {
 
 if (-not $SkipBuild) {
   Stop-ProcessIfRunning -ProcessName "VideoDownloader"
+  Stop-ProcessIfRunning -ProcessName "QtWebEngineProcess"
   Stop-ProcessIfRunning -ProcessName "yt-dlp"
   Stop-ProcessIfRunning -ProcessName "ffmpeg"
   Stop-ProcessIfRunning -ProcessName "aria2c"
